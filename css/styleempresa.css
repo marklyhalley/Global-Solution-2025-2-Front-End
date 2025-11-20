@@ -1,6 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Stack+Sans+Notch:wght@200..700&display=swap');
-
 
 nav {
     background: #1E1F2E;
@@ -40,8 +38,8 @@ nav ul li a:hover {
 }
 
 .maxw {
-  max-width: 1400px;
-  margin: 0 auto;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 * {
@@ -49,8 +47,6 @@ nav ul li a:hover {
     padding: 0;
     box-sizing: border-box;
 }
-
-
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -75,20 +71,19 @@ body {
     overflow: hidden;
 }
 
-
 .conteudo {
     text-align: center;
     z-index: 1;
     max-width: 900px;
-    padding: 4rem 2rem;
+    padding: 64px 32px;
 }
 
 .titulo-banner {
-    font-size: 3.5rem;
+    font-size: 56px;
     font-weight: 300;
     letter-spacing: 2px;
     line-height: 1.3;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
 }
 
 .titulo-banner span {
@@ -97,12 +92,12 @@ body {
 }
 
 .sub-banner {
-    font-size: 1.3rem;
+    font-size: 20.8px;
     color: #B8B8C8;
 }
 
 section {
-    padding: 6rem 0;
+    padding: 96px 0;
 }
 
 .secao-alternada {
@@ -111,11 +106,11 @@ section {
 
 .feature-card {
     display: grid;
-    grid-template-columns: 120px 1fr;
-    gap: 2.5rem;
+    grid-template-columns: 120px auto;
+    gap: 40px;
     align-items: start;
     background-color: rgba(255, 255, 255, 0.03);
-    padding: 3rem;
+    padding: 48px;
     border-radius: 15px;
     border: 1px solid rgba(255, 255, 255, 0.08);
     transition: all 0.3s;
@@ -135,16 +130,16 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 3.5rem;
+    font-size: 56px;
 }
 
 .card-imagem {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
+    grid-template-columns: 50% 50%;
+    gap: 48px;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.03);
-    padding: 3rem;
+    padding: 48px;
     border-radius: 15px;
     border: 1px solid rgba(255, 255, 255, 0.08);
     transition: all 0.3s;
@@ -156,11 +151,11 @@ section {
 }
 
 .card-imagem.left {
-    grid-template-columns: 350px 1fr;
+    grid-template-columns: 350px auto;
 }
 
 .card-imagem.right {
-    grid-template-columns: 1fr 350px;
+    grid-template-columns: auto 350px;
 }
 
 .imagem-borda {
@@ -193,14 +188,15 @@ section {
 
 .cards-colunas {
     display: grid;
-    grid-template-columns: 1.5fr auto 1.5fr;
-    gap: 2.5rem;
+    grid-template-columns: 400px 380px 400px;
+    gap: 40px;
     align-items: stretch;
+    justify-content: center;
 }
 
 .side-text-box {
     background-color: rgba(255, 255, 255, 0.03);
-    padding: 2.5rem;
+    padding: 40px;
     border-radius: 15px;
     border: 1px solid rgba(255, 255, 255, 0.08);
     transition: all 0.3s;
@@ -216,14 +212,14 @@ section {
 }
 
 .side-text-box h3 {
-    font-size: 1.7rem;
-    margin-bottom: 1rem;
+    font-size: 27.2px;
+    margin-bottom: 16px;
     color: #7AE582;
     font-weight: 400;
 }
 
 .side-text-box p {
-    font-size: 1.05rem;
+    font-size: 16.8px;
     color: #B8B8C8;
     line-height: 1.9;
     text-align: justify;
@@ -254,14 +250,14 @@ section {
 }
 
 .texto h3 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 32px;
+    margin-bottom: 16px;
     color: #7AE582;
     font-weight: 400;
 }
 
 .texto p {
-    font-size: 1.1rem;
+    font-size: 17.6px;
     color: #dbdbeb;
     line-height: 1.9;
     text-align: justify;
@@ -301,7 +297,6 @@ footer {
     max-width: 330px;
 }
 
-
 .footer-coluna h3 {
     font-weight: 400;
     margin-bottom: 15px;
@@ -312,11 +307,13 @@ footer {
     font-size: 28px;    
     font-weight: 400;
     margin-bottom: 15px;
-    color: #7AE582;
+    color: #8B7FD9;
+    letter-spacing: 2px;
 }
 
 .footer-coluna h3 {
     font-size: 20px;
+    color: #8B7FD9;
 }
 
 .footer-coluna p {
@@ -327,6 +324,29 @@ footer {
     text-align: left;
 }
 
+.social-icons {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.social-icons a {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 9.6px 19.2px;
+    border-radius: 5px;
+    color: #B8B8C8;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-size: 16px;
+    width: 140px;
+}
+
+.social-icons a:hover {
+    background-color: #8B7FD9;
+    color: #FFFFFF;
+}
+
 .footer-fundo {
     text-align: center;
     padding-top: 20px;
@@ -334,4 +354,12 @@ footer {
     opacity: 0.7;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+#footerh {
+    margin-left:80px;
+}
+
+.footerdiv h3 {
+    text-align: left;
 }
